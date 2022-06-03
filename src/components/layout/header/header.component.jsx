@@ -44,7 +44,7 @@ const links = [
 
 const Header = () => {
   return (
-    <header className="bg-black py-3">
+    <header className="bg-app-brown py-3">
       <Container>
         <div className="flex items-center justify-between h-full ">
           <Link to="/" className="w-40">
