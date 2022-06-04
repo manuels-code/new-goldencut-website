@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./layout/containers/container.component";
-import Button from "./buttons/button.component";
+import Button from "./buttons/button/button.component";
 const Hero = () => {
   return (
     <section>

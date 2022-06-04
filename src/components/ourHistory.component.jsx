@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./layout/containers/container.component";
-import Button from "./buttons/button.component";
+import Button from "./buttons/button/button.component";
 import Img from "../assets/images/pexels-cottonbro-3992875.jpg";
 
 const OurHistory = () => {
@@ -9,7 +9,6 @@ const OurHistory = () => {
       <Container>
         <div className="max-w-[556px] h-full">
           <div className="flex flex-col gap-4">
-
             <h2>
               <span className="text-lg block">Goldencut Hair Studio</span>
               Our History
@@ -29,7 +28,7 @@ const OurHistory = () => {
             </p>
 
             <div>
-              <Button color="inverted">Read More About Our History</Button>
+              <Button buttonStyles={'btn--secondary'} buttonSize={'sm'}>Read More About Our History</Button>
             </div>
 
             <img className="w-full" src={Img} alt="" />
