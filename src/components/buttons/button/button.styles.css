@@ -1,0 +1,28 @@
+.btn {
+  font-family: "Poppins";
+  cursor: pointer;
+  border: solid white;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+/* button component styles */
+.btn--primary {
+  background-color: #f8f3f1;
+  color: #120f0f;
+}
+.btn--secondary {
+  background-color: #120f0f;
+  color: #f8f3f1;
+  font-weight: 200;
+}
+
+/* sizes */
+.sm {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+}
+.md {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
