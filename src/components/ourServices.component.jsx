@@ -9,7 +9,7 @@ const services = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia.",
   },
   {
-    title: "Blowdry",
+    title: "Hairstyle",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia.",
   },
   {
@@ -32,7 +32,7 @@ const OurServices = () => {
       <div className="flex flex-col gap-4">
         <h2>
           <span>Browse Our Categories</span>
-          Goldencut Services
+          Our Services
         </h2>
         <div>
           <ServiceCard services={services} />

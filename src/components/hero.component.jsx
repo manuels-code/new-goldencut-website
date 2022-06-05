@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col h-screen justify-center gap-5 z-10 ">
           <h1>
             <span className="text-lg block">Man &#38; Women Beauty Center</span>
-            Beauty &#38; Spa Wellness
+            Goldencut Hair Studio.
           </h1>
           <p className="text-gray-300">
             A small river named Duden flows by their place and supplies it with

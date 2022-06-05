@@ -22,9 +22,7 @@ const Reviews = () => {
       <h2 className="text-center text-app-white2">
         <span>Amazing Reviews</span> Reviews From For Our Services
       </h2>
-      <div className="flex flex-col gap-10 text-center text-app-white2">
-        <ReviewStatisticsCard reviewsStatistics={reviewsStatistics} />
-      </div>
+      <ReviewStatisticsCard reviewsStatistics={reviewsStatistics} />
     </Section>
   );
 };
