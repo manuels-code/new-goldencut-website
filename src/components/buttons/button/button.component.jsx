@@ -18,7 +18,7 @@ const Button = ({ children, buttonStyles, buttonSize }) => {
   const checkStyles = STYLES.includes(buttonStyles) ? buttonStyles : STYLES[0];
   const checkSize = SIZE.includes(buttonSize) ? buttonSize : SIZE[0];
 
-  return <button className={`btn ${checkStyles} ${checkSize}`}>{children}</button>;
+  return <button className={`btn ${checkStyles} ${checkSize}`}><span>{children}</span></button>;
 };
 
 export default Button;

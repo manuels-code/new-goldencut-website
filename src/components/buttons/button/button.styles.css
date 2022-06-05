@@ -17,6 +17,13 @@
   font-weight: 200;
 }
 
+.btn--secondary span {
+  background-image: linear-gradient(90deg, #c1922e, #f5e9b4,#ad7f2c, #fcf3af, #ad7f2c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+}
 /* sizes */
 .sm {
   padding: 0.6rem 1rem;

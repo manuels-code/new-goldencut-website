@@ -6,7 +6,7 @@ const Hero = () => {
     <section>
       <Container>
         <div className="flex flex-col h-screen justify-center gap-5 z-10 ">
-          <h1 className="text-5xl text-white">
+          <h1>
             <span className="text-lg block">Man &#38; Women Beauty Center</span>
             Beauty &#38; Spa Wellness
           </h1>
