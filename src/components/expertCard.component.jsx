@@ -4,7 +4,7 @@ const ExpertCard = ({ experts }) => {
   return (
     <div className="flex flex-col gap-4 max-w-[390px] m-auto">
       {experts.map(({ name, position, imgPath }) => (
-        <div className="p-4 border rounded flex flex-col gap-4 text-center min-w-[350px]">
+        <div key={name} className="p-4 border rounded flex flex-col gap-4 text-center min-w-[350px]">
           <img src={imgPath} alt="" />
           <p>
             <span className="font-bold text-black">{name}</span>
