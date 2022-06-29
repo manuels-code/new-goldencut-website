@@ -1,31 +1,25 @@
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import TestimonialsCard from "./testimonialsCard.component";
 
 const Slider = ({ reviews }) => {
   const [position, setPosition] = useState(0);
-  const [transition, setTransition] = useState("transition");
-  const [timing, setTiming] = useState(5000);
-
-  const next = () => {
-    setPosition(position + 1);
-  };
+  const [transition, setTransition] = useState("");
+  const [intervalSpeed, setIntervalSpeed] = useState(5000);
 
   useEffect(() => {
     const interval = setInterval(() => {
       if (position < reviews.length) {
-        next();
+        setPosition(position + 1);
         setTransition("transition");
-        setTiming(5000);
+        setIntervalSpeed(5000);
       } else {
         setPosition(0);
         setTransition("transition-none");
-        setTiming(0);
+        setIntervalSpeed(0);
       }
       clearInterval(interval);
-    }, timing);
-  }, [position]);
+    }, intervalSpeed);
+  }, [position,intervalSpeed,reviews.length]);
 
   return (
     <div className="overflow-hidden w-[80%] mx-auto">
