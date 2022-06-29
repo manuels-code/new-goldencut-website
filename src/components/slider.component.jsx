@@ -19,7 +19,7 @@ const Slider = ({ reviews }) => {
       }
       clearInterval(interval);
     }, intervalSpeed);
-  }, [position,intervalSpeed,reviews.length]);
+  }, [position, intervalSpeed, reviews.length]);
 
   return (
     <div className="overflow-hidden w-[80%] mx-auto">
