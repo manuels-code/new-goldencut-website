@@ -4,14 +4,14 @@ import TestimonialsCard from "./testimonialsCard.component";
 const Slider = ({ reviews }) => {
   const [position, setPosition] = useState(0);
   const [transition, setTransition] = useState("");
-  const [intervalSpeed, setIntervalSpeed] = useState(10000);
+  const [intervalSpeed, setIntervalSpeed] = useState(5000);
 
   useEffect(() => {
     const interval = setInterval(() => {
       if (position < reviews.length) {
         setPosition(position + 1);
         setTransition("transition");
-        setIntervalSpeed(10000);
+        setIntervalSpeed(5000);
       } else {
         setPosition(0);
         setTransition("transition-none");
