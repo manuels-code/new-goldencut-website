@@ -14,7 +14,7 @@ const reviews = [
     review: {
       title: "1 Amazing Staff",
       context:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, eligendi provident! Similique modi praesentium dolore natus perspiciatis accusantium culpa placeat! adipisicing elit. Temporibus, eligendi provident! Similique modi praesentium dolore natus perspiciatis accusantium culpa placeat!",
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, eligendi provident! Similique modi praesentium dolore natus perspiciatis accusantium culpa placeat!",
     },
   },
   {
